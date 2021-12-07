@@ -19,6 +19,7 @@ export default class Counter extends React.component {
 
   componentDidUpdate(prevProps, prevState, shapshot) {
     console.log('component did update');
+    console.log('___________________');
   }
 
   render() {
